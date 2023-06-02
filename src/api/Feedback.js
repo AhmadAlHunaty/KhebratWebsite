@@ -11,9 +11,9 @@ const getFeedback = (id) => {
 }
 
 const createFeedback = (data) => {
-    /* create new feedback from employer to jobseeker (by the employer only)
+    /* create new feedback from employer to job_seeker (by the employer only)
     * required data: job_seeker_id, rating, notes
-    *  */
+    * */
     return api.post(path, data);
 }
 
