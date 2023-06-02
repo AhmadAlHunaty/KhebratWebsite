@@ -46,7 +46,7 @@ const Footer = () => {
 
 
                 </Box>
-                <div class="vl"></div>
+                <div className="vl"></div>
 
                 <Box component='span' sx={{
                     color: palette.primary.main, flexdirection: 'column', position: 'absoulte', width: '33%', alignItems: 'flex-bottom'
@@ -70,7 +70,7 @@ const Footer = () => {
 
 
                 </Box >
-                <div class="vl"></div>
+                <div className="vl"></div>
                 <Box sx={{ color: palette.primary.main, flexdirection: 'column', position: 'relative', width: '33%', alignItems: 'flex-bottom' }}>
                     <div className='Co'>
                         <div>
